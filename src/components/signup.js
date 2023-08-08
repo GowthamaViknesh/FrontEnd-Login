@@ -9,7 +9,7 @@ const SignupPage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(email, pass);
-    fetch('https://login-backend-ftez.onrender.com/register', {
+    fetch('https://password-hnkb.onrender.com/register', {
       method: 'POST',
       crossDomain: true,
       headers: {
