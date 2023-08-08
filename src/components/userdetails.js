@@ -4,7 +4,7 @@ const Userdetails = () => {
   const [email, setEmail] = useState('');
   console.log(email);
   const handleData = () => {
-    fetch('https://login-backend-ftez.onrender.com/userData', {
+    fetch('https://password-hnkb.onrender.com/userData', {
       method: 'POST',
       headers: {
         'Content-type': 'application/json',
