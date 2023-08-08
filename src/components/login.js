@@ -8,7 +8,7 @@ const LoginPage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(email, pass);
-    fetch('https://password-hnkb.onrender.com/login', {
+    fetch('https://password-hnkb.onrender.com//login', {
       method: 'POST',
       crossDomain: true,
       headers: {
